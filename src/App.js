@@ -5,7 +5,8 @@ import { useState } from "react";
 const foodData = {
   gujarati: [
     { name: "Fafda", rating: "4/5" },
-    { name: "Dhokla", rating: "3.5/5" }
+    { name: "Dhokla", rating: "3.5/5" },
+    { name: "Handva", rating: "4.5/5" }
   ],
   southIndian: [
     {
@@ -15,6 +16,10 @@ const foodData = {
     {
       name: "Dosa",
       rating: "4.5/5"
+    },
+    {
+      name: "Upma",
+      rating: "4/5"
     }
   ],
   punjabi: [
@@ -24,6 +29,10 @@ const foodData = {
     },
     {
       name: "Paneer tufani",
+      rating: "5/5"
+    },
+    {
+      name: "chhole bhature",
       rating: "5/5"
     }
   ]
