@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: rebeccapurple;
+  padding: 1rem;
 }
 
 #btn {

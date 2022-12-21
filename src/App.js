@@ -75,7 +75,8 @@ export default function App() {
                 border: "1px solid #D1D5DB",
                 width: "70%",
                 margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
+                backgroundColor: "#E5E7EB"
               }}
             >
               {" "}
