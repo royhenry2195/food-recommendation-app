@@ -66,7 +66,7 @@ export default function App() {
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {foodData[selectedGenre]?.map((book) => (
+          {foodData[selectedGenre]?.map((food) => (
             <li
               key={book.name}
               style={{
@@ -80,8 +80,8 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {book.name} </div>
-              <div style={{ fontSize: "smaller" }}> {book.rating} </div>
+              <div style={{ fontSize: "larger" }}> {food.name} </div>
+              <div style={{ fontSize: "smaller" }}> {food.rating} </div>
             </li>
           ))}
         </ul>
